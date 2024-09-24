@@ -1,9 +1,11 @@
-import random
 
-c = random.randint(1,100)
+
+cote_du_carre = 7
+c = cote_du_carre
 p = c * 4
 a = c ** 2
-c = 7
+b = a > 5
+print(c, p, a, b)
 
 def perimetre(x):
     return 4 * x
